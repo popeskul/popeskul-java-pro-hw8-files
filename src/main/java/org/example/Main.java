@@ -12,7 +12,7 @@ public class Main {
 
         FileLogger logger = new FileLogger(configuration);
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 1; i++) { // Change this to 1000 to see the exception
             try {
                 logger.log(LoggingLevel.DEBUG, "This is a debug message");
                 logger.log(LoggingLevel.INFO, "This is an info message");
